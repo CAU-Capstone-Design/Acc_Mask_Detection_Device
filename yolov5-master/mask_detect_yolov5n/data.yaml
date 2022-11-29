@@ -1,0 +1,14 @@
+names:
+- improper_mask
+- mask
+- no-mask
+nc: 3
+roboflow:
+  license: Public Domain
+  project: mask-wearing-ytrpw
+  url: https://app.roboflow.com/maskdetect-7repv/mask-wearing-ytrpw/3
+  version: 3
+  workspace: maskdetect-7repv
+test: ../test/images
+train: Mask-Wearing-3/train/images
+val: Mask-Wearing-3/valid/images
